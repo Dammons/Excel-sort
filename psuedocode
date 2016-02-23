@@ -1,0 +1,22 @@
+so everythings kinda already sorted, as the gender entries are in different columns in the table depending on data 
+like all gender responses from ages 14-17 are in column CD, and all gender responses for ages 45-59 are in CG
+
+we create 18 separate spreadsheets, one for each age/gender combination
+
+this way we 
+
+*open document command*
+*open other 18 documents command*
+for (i=0, i<=largest row number, i++)
+{
+select row number i;
+If(value from row in column [CG,CC,CE, etc] =/= null and entry string=given gender value [such as male, female, nonbinary]){
+place that row’s value in this doc
+}else{
+go back to the beginning of the if statement
+}
+}
+
+actually you know what on second thought the if statement may not be the best thing standalone maybe like 2 for loops
+or maybe just a bunch of if statements
+but that’d be like 18 nested if’s right because you can’t necessarily 
