@@ -1,2 +1,2 @@
-# Bezier-Curve
-Program that draws a Bezier Curve between any number of points
+# Excel-sort
+Sorts an excel spreadsheet
