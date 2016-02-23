@@ -1,11 +1,8 @@
-so everythings kinda already sorted, as the gender entries are in different columns in the table depending on data 
-like all gender responses from ages 14-17 are in column CD, and all gender responses for ages 45-59 are in CG
+so everythings kinda already sorted, as the gender entries are in different columns in the table depending on data; like all gender responses from ages 14-17 are in column CD, and all gender responses for ages 45-59 are in CG
 
 we create 18 separate spreadsheets, one for each age/gender combination
 
-this way we 
-
-*open document command*
+*open original document command*
 *open other 18 documents command*
 for (i=0, i<=largest row number, i++)
 {
